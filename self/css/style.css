@@ -1,0 +1,279 @@
+.header{
+    background: url(../image/rest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #0c0b09;
+    
+}
+
+
+.background{
+    background: rgba(12, 11, 9, 0.6);
+   transition: all 0.5s;
+    padding: 15px 20px!important;
+    z-index: 997;
+    top: 10px;
+    background-attachment: fixed!important;
+}
+
+.table-box {
+    border:  1px solid rgb(238, 8, 8);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-left: 31px;
+}
+.table-box:hover{
+background-color: rgb(68, 2, 46);
+
+}
+
+.txt-bck{
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.txt-bck h1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(201, 188, 7);
+    font-family: "Poppins", sans-serif;
+}
+.txt-bck h2 {
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 30px;
+}
+
+/*-----------------------btn-----------------*/
+
+.box-btn{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+ .box-btn a {
+     text-decoration: none;
+     border: 1px solid rgb(184, 3, 3);
+    margin-left: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+}
+ .box-btn a:hover{
+     border: none;
+    background-color: rgb(226, 3, 3);
+    color: rgb(255, 255, 255);
+}
+
+/*----------------------ABOUT--------------------*/
+.about{
+
+    background: url(../image/about-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+    width: 100%;
+    background-attachment: fixed;
+    background-color: #0c0b09;
+    color: rgb(236, 235, 170);
+}
+.about-img img{
+    width: 500px;
+    
+}
+
+/*----------------------why us----------------------------*/
+
+.why-us{
+    padding: 60px 0;
+    overflow: hidden;    
+    background-color: rgb(22, 19, 1);
+}  
+
+
+.card-body{
+    background-color: rgb(36, 19, 2);
+}
+
+/*-----------------------menu---------------------------*/
+
+.section-bg{
+
+background-color: rgb(36, 25, 12);
+padding: 20px;
+box-sizing: borderbox;
+color: white;
+
+}
+
+.menu #menu-flters {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 12px 10px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 50px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+    color: #cda45e;
+  }
+  
+  
+  
+  .menu .menu-item {
+    margin-top: 50px;
+  }
+  
+  .menu .menu-img {
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .menu .menu-content {
+    margin-left: 85px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+ 
+  
+  .menu .menu-content a {
+    padding-right: 10px;
+    
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .menu .menu-content a:hover {
+    color: #cda45e;
+  }
+  
+  .menu .menu-content span {
+   
+    position: relative;
+    z-index: 3;
+    padding: 0 10px;
+    font-weight: 600;
+    color: #cda45e;
+  }
+  
+  .menu .menu-ingredients {
+    margin-left: 85px;
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+   
+  }
+  /*---------------------------specials------------------------*/
+
+  .specials {
+    overflow: hidden;
+    background: #f0c56f;
+  }
+  .section-title h2{
+      color: whitesmoke;
+      font-size: 48px;
+      padding-top: 10px;
+  }
+  .section-title p{
+      color: rgb(20, 9, 9);
+      font-size: 18px;
+      padding-top: 10px;
+  }
+  .specials .nav-tabs {
+    border: 0;
+    background: rgb(29, 27, 27);
+  }
+  
+  .specials .nav-link {
+    border: 0;
+    padding: 12px 15px;
+    transition: 0.3s;
+    color: #fff;
+    border-radius: 0;
+    border-right: 2px solid #cda45e;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  
+  .specials .details h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .specials .details p {
+    color: #aaaaaa;
+  }
+  
+  
+  /*------------------------form-------------------------------*/
+  .reserve{
+      background-color: antiquewhite;
+      padding: 35px 0;
+  }
+
+  .section-reserve{
+      color: #110c01;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    border: 1px solid #aaaaaa;
+  }
+
+
+  
+
+  .lst-btn{
+    background: #cda45e;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .lst-btn:hover{
+    background-color: rgb(68, 2, 46);
+    
+    }
+
+
+    
